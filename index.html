@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="left">
+                <!-- <img src="logo.png" alt=""> -->
+                <div class="logo">
+                    <div class="head"></div>
+                    <div class="body"></div>
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                </div>
+                <h3>Electribus</h3>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Aceuill</li>
+                    <li>A propos</li>
+                    <li>Contactez-Nous</li>
+                </ul>
+            </div>
+            <div class="menu" id="menu">
+                <img src="app-menu-icon-25.png" alt="">
+            </div>
+        </header>
+        <section>
+            <div class="bus">
+                <!-- <img src="bus.png" alt=""> -->
+                <div class="left-window"></div>
+                <div class="right-window"></div>
+                <div class="left-wheel">
+                    <div class="inside-wheel"></div>
+                </div>
+                <div class="right-wheel">
+                    <div class="inside-wheel-2"></div>
+                </div>
+                <div class="left-light">
+                </div>
+                <div class="right-light">
+                </div>
+            </div>
+            <div class="text">
+                <h3>Faites une simulation de prix maintenant</h3>
+                <button>Commencez</button>
+            </div>
+        </section>
+
+        <div class="menu-section" id="menu-section">
+            <div class="close">
+                <div class="first"></div>
+                <div class="second"></div>
+            </div>
+            <ul>
+                <li>Aceuill</li>
+                <li>A propos</li>
+                <li>Contactez-Nous</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- section - 2  -->
+    <div class="section-2">
+        <h3>Simulateur d'Estimation des Coûts des Bus Électriques</h3>
+        <p>Le simulateur d'estimation des coûts des bus électriques aide les utilisateurs à calculer le coût total d'acquisition d'un bus électrique. Il prend en compte des facteurs tels que le prix de base, l'autonomie supplémentaire, les options supplémentaires, et les subventions gouvernementales disponibles. Cet outil permet aux utilisateurs de prendre des décisions éclairées pour l'achat de leur prochain véhicule électrique.</p>
+        <div class="elements">
+            <div>Prix de base pour différents modèles</div>
+            <div>Coût de l'autonomie supplémentaire</div>
+            <div>Options premium disponibles</div>
+            <div>Subventions et réductions applicables</div>
+        </div>
+    </div>
+
+    <!-- section - 3  -->
+    <div class="section-3">
+            <h2>Simulateur d'Estimation des Coûts des Bus Électriques</h2>
+            <form action="">
+                <label for="">Modèle de bus :</label>
+                <select name="" id="select"></select>
+                <label for="">Autonomie supplémentaire (km) :</label>
+                <input type="number"   id="autoSupp" required min="0">
+                <label for="">Cout des options supplémentaire (MAD) :</label>
+                <input type="number" name="" id="coutSupp" required>
+                <label for="">Réduction ou subvention (MAD) : </label>
+                <input type="text" name="" id="reduction" required>
+                <input class="btn-calcul"  id="btn-calcul" type="button" value="Calculer">
+                <div class="results">
+                    <p>Cout total (achat standard) : <span id="results"></span>  </p>
+                </div>
+                <div class="alert">
+                    <div class="top">
+                        <span id="close" class="material-symbols-outlined">
+                            close
+                            </span>
+                    </div>
+                    <div class="note">
+                        <h5>
+                            please check the inputs
+                        </h5>
+                    </div>
+                </div>
+            </form>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <h4>À propos</h4>
+                <p>Ce simulateur aide les utilisateurs à estimer le coût total d'acquisition d'un bus électrique en fonction de leurs besoins.</p>
+            </div>
+            <div class="center">
+                <h4>Liens utiles</h4>
+                <ul>
+                    <li>Politique de confidentialité</li>
+                    <li>Conditions d'utilisation</li>
+                    <li>Contactez-nous</li>
+                </ul>
+            </div>
+            <div class="right">
+                <h4>Suivez-nous</h4>
+                <div class="social-media">
+                    <img src="facebook.png" alt="">
+                    <img src="instagram.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="coperight">
+            2025 Simulateur Bus Électrique. Tous droits réservés.
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
